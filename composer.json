@@ -1,0 +1,19 @@
+{
+    "name": "MVC-PSR-4",
+    "description": "Php mvc using psr-4",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bungnewbie",
+            "email": "lamaaurizkhal@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^0.8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
